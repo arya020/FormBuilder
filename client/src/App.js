@@ -15,7 +15,7 @@ function App() {
           <Route 
             path="/:formId" 
             element={
-              <div className="min-h-screen bg-[#d2ffd9ad]">
+              <div className="min-h-screen bg-[#d2dbffad]">
                 <div className="max-w-4xl mx-auto py-8">
                   <PreviewWrapper />
                 </div>
