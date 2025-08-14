@@ -121,7 +121,7 @@ const FormPreview = ({ formId, onClose }) => {
           <h3 className="font-semibold">
             Question {idx + 1}: {q.type.charAt(0).toUpperCase() + q.type.slice(1)}
           </h3>
-          { q.image && <img src={q.image} alt="Question" className="w-full h-40 object-cover my-4 rounded" />}
+          { q.image && <img src={q.image} alt="Question" className="w-full h-60 object-cover my-4 rounded" />}
           {q.type === "categorize" && renderCategorize(q)}
           {q.type === "cloze" && renderCloze(q)}
           {q.type === "comprehension" && renderComprehension(q)}
