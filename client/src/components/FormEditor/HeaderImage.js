@@ -16,7 +16,7 @@ export default function HeaderImage({ value, onChange }) {
 
     try {
       const res = await axios.post(
-        'http://localhost:5000/api/upload',
+        'https://formbuilder-qvai.onrender.com/api/upload',
         formData,
         {
           headers: { 'Content-Type': 'multipart/form-data' },
